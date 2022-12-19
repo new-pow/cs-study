@@ -14,4 +14,6 @@
 
 ## Java
 - [Java 실행 과정](./java/java-compile.md)
-- 
+- [String, StringBuffer, StringBuilder](./java/String-StringBuffer-StringBuilder.md)
+- [타입변환 Casting (업캐스팅 & 다운캐스팅)](./java/Casting.md)
+- [오토 박싱 & 오토 언박싱](./java/boxing-unboxing.md)
