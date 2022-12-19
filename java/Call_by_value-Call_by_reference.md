@@ -86,4 +86,4 @@ public class Hello {
 
 -   참고
 - 연관글
-	- [jvm 메모리 할당 방법](./jvm-stack-heap)
+	- [jvm 메모리 할당 방법](./jvm-stack-heap.md)
