@@ -53,4 +53,7 @@ public void test() {
 
 - 참고
     
-    [[Java] 메모리 관리 및 Pass By Value의 동작 방식 (2/3)](https://mangkyu.tistory.com/106)
+    - [[Java] 메모리 관리 및 Pass By Value의 동작 방식 (2/3)](https://mangkyu.tistory.com/106)
+
+- 연관
+	- [Call by value, Call by reference](./Call_by_value-Call_by_reference)
