@@ -177,4 +177,12 @@ thread2 after call 2016-03-27T18:08:40.887
     -   스레드 한정
     -   threadlocal
     -   producer - consumer 패턴
-- 이처럼 복잡한 상황이 많이 만들어진다.
+- 이처럼 복잡한 상황이 많이 만들어진다. 최적은 동기화 문제가 일어나지 않도록 설계하는 것!
+	- 캡슐화를 잘 한다.
+	- 전역 변수 사용을 최소화한다.
+
+---
+> 참고
+> 	-   자바의 정석 chapter 13. 쓰레드
+> 	-   ****[Java - Intrinsic Locks and Synchronization](https://www.logicbig.com/tutorials/core-java-tutorial/java-multi-threading/java-intrinsic-locks.html)****
+> 	-   [](https://hbase.tistory.com/311)[https://hbase.tistory.com/311](https://hbase.tistory.com/311)
