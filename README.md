@@ -21,3 +21,4 @@
 - [jvm 메모리 할당 방법](./java/jvm-stack-heap.md)
 - [Thread 활용](./java/thread.md)
 - [고유 락](./java/intrinstic-lock)
+- [직렬화(Serialization)](./java/serialization.md)
