@@ -22,3 +22,4 @@
 - [Thread 활용](./java/thread.md)
 - [고유 락](./java/intrinstic-lock)
 - [직렬화(Serialization)](./java/serialization.md)
+- [가비지 컬렉터(Garbage Collector)](./java/garbage-collector.md)
