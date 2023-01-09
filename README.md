@@ -1,9 +1,7 @@
 # CS study
-
 - Member [@new-pow](https://github.com/new-pow) [@syr9707](https://github.com/syr9707)
 
 # Computer Science
-
 ## Software Engineering
 - [프로그래밍 패러다임 Programming Paradigm](./software-engineering/programming-paradigm.md)
 - [함수형 프로그래밍 Functional Programming](./software-engineering/functinal-programing.md)
@@ -12,6 +10,17 @@
 - [객체지향 프로그래밍(OOP)](./software-engineering/oop.md)
 - [테스트 주도 개발 (TDD)](./software-engineering/tdd.md)
 
+## Database
+- [SQL JOIN](./database/sql-join.md)
+- [SQL 인젝션](./database/sql-injection.md)
+- [SQL & NOSQL](./database/sql-nosql.md)
+
+## Operating System
+- [유닉스와 리눅스](./operation-system/unix-linux.md)
+
+---
+
+# Language
 ## Java
 - [Java 실행 과정](./java/java-compile.md)
 - [String, StringBuffer, StringBuilder](./java/String-StringBuffer-StringBuilder.md)
@@ -25,8 +34,5 @@
 - [가비지 컬렉터(Garbage Collector)](./java/garbage-collector.md)
 - [Error & Exception](./java/error-exception.md)
 - [자바 스트림(Java Stream)](./java/stream.md)
-- [트랜잭션(Transaction)](./java/transaction)
+- [트랜잭션(Transaction)](database/transaction.md)
 
-## Database
-- [SQL 인젝션](./database/sql-injection.md)
-- [SQL & NOSQL](./database/sql-nosql.md)
