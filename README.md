@@ -1,5 +1,5 @@
 # CS study
-- Member [@new-pow](https://github.com/new-pow) [@syr9707](https://github.com/syr9707) [@xangjong](https://github.com/xangjong)
+- Member [@new-pow](https://github.com/new-pow) [@syr9707](https://github.com/syr9707)
 
 # Computer Science
 ## Software Engineering
@@ -14,6 +14,9 @@
 - [SQL JOIN](./database/sql-join.md)
 - [SQL 인젝션](./database/sql-injection.md)
 - [SQL & NOSQL](./database/sql-nosql.md)
+- [anomaly](./database/anomaly.md)
+- [index](./database/dbindex.md)
+- [transaction](./database/transaction.md)
 
 ## Operating System
 - [유닉스와 리눅스](./operation-system/unix-linux.md)
