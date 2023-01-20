@@ -2,6 +2,8 @@
 - Member [@new-pow](https://github.com/new-pow) [@syr9707](https://github.com/syr9707)
 
 # Computer Science
+## Computer
+- [컴퓨터의 구조](./computer/)
 ## Software Engineering
 - [프로그래밍 패러다임 Programming Paradigm](./software-engineering/programming-paradigm.md)
 - [함수형 프로그래밍 Functional Programming](./software-engineering/functinal-programing.md)
