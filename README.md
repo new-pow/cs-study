@@ -4,6 +4,8 @@
 # Computer Science
 ## Computer
 - [컴퓨터의 구조](./computer/)
+
+
 ## Software Engineering
 - [프로그래밍 패러다임 Programming Paradigm](./software-engineering/programming-paradigm.md)
 - [함수형 프로그래밍 Functional Programming](./software-engineering/functinal-programing.md)
@@ -19,6 +21,7 @@
 - [anomaly](./database/anomaly.md)
 - [index](./database/dbindex.md)
 - [transaction](./database/transaction.md)
+- [normalization](./database/normalization.md)
 
 ## Operating System
 - [유닉스와 리눅스](./operation-system/unix-linux.md)
