@@ -22,6 +22,9 @@
 - [index](./database/dbindex.md)
 - [transaction](./database/transaction.md)
 - [normalization](./database/normalization.md)
+- [트랜잭션 격리 수준](./database/isolation-level.md)
+- [저장 프로시저](./database/store-procedure.md)
+- [레디스](./database/redis.md)
 
 ## Operating System
 - [유닉스와 리눅스](./operation-system/unix-linux.md)
