@@ -28,6 +28,9 @@
 
 ## Operating System
 - [유닉스와 리눅스](./operation-system/unix-linux.md)
+- [인터럽트](./operation-system/interrupt.md)
+- [시스템 콜](./operation-system/system-call.md)
+- [PCB & Context Switching](./operation-system/pcb-contextswitching.md)
 
 ---
 
