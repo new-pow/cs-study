@@ -14,7 +14,7 @@
     - Heap 영역 : 동적할당을 위한 메모리 영역(malloc(), new 등)
     - Stack 영역 : 지역 변수, 파라미터(함수에 전달되는 인자)가 위치하는 공간
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/020f61b7-69ed-4607-9af3-0cb5cfc7d93a/Untitled.png)
+![Untitled](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F020f61b7-69ed-4607-9af3-0cb5cfc7d93a%2FUntitled.png?id=d5ebdb37-ca4d-411c-8678-21e4ec1b4e85&table=block&spaceId=1feb7462-9c33-4bf1-b0bb-7973d34ffaf2&width=2000&userId=180a704c-6552-4796-9dd2-ab125439ed98&cache=v2)
 
 ## code (text)
 
@@ -57,15 +57,14 @@
 - Heap은 메모리의 낮은 주소에서 높은 주소의 방향으로 할당된다.
 - HEAP과 STACK영역은 사실 같은 공간을 공유한다. HEAP이 메모리 위쪽 주소부터 할당되면 STACK은 아래쪽부터 할당되는 식이다. 그래서 각 영역이 상대 공간을 침범하는 일이 발생할 수 있는데 이를 각각 `HEAP OVERFLOW`, `STACK OVERFLOW`라고 칭한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5a96f5dd-4c2f-42eb-b87d-cb92acc74dff/Untitled.png)
+![Untitled](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5a96f5dd-4c2f-42eb-b87d-cb92acc74dff%2FUntitled.png?id=56a335c1-b759-40c4-8bb6-a9f7b843cf75&table=block&spaceId=1feb7462-9c33-4bf1-b0bb-7973d34ffaf2&width=2000&userId=180a704c-6552-4796-9dd2-ab125439ed98&cache=v2)
 
 <aside>
 ❗ 커널은 힙메모리가 없다!
 
-[커널(kernel)](https://www.redhat.com/ko/topics/linux/what-is-the-linux-kernel)은 Linux 운영 체제(OS)의 주요 구성 요소이며 컴퓨터 하드웨어와 프로세스를 잇는 핵심 **인터페이스**. 그리고 두가지 관리 리소스에서 최대한 효과적으로 통신한다.
-
-'커널 == 운영체제'가 아니라, 커널은 운영체제의 주요 구성 요소.
-리눅스로 예를 들자면, 커널은 메모리 관리, 프로세스 관리, 하드웨어와 프로세스 사이에서 인터프리터 역할을 수행하거나 시스템의 호출이나 보안등의 기능을 수행한다. 즉, 리눅스에서(다른 OS는 다를 수 있음) 커널은 하나의 프로세스가 아니라 컴퓨터 하드웨어와 프로세스를 잇는 인터페이스로 보아야 한다.
+'[커널(kernel)](https://www.redhat.com/ko/topics/linux/what-is-the-linux-kernel) == 운영체제'가 아니라, 커널은 운영체제의 주요 구성 요소.
+리눅스로 예를 들자면, 커널은 메모리 관리, 프로세스 관리, 하드웨어와 프로세스 사이에서 인터프리터 역할을 수행하거나 시스템의 호출이나 보안등의 기능을 수행한다.
+즉, 리눅스에서(다른 OS는 다를 수 있음) 커널은 하나의 프로세스가 아니라 **컴퓨터 하드웨어와 프로세스를 잇는 인터페이스**로 보아야 한다.
 
 **커널은 힙메모리를 사용하지 않는다. 커널은 운영체제(리눅스)에서 동적메모리 할당을 위해 필요한 기능들을 커널이 제공하는데, 운영체제는 커널에서 제공하는 기능을 사용해서 메모리 풀(memory pool)을 관리.**
 
