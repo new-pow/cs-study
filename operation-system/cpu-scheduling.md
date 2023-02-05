@@ -60,7 +60,7 @@
     - 프로그램을 다시 시작하기 위해 사용자 프로그램의 적절한 위치로 이동(jump) 하는 일
 - 디스패치 지연 (dispatch latency) : 하나의 프로세스를 정지하고 다른 프로세스를 수행시작하기까지 소요되는 시간
     
-    ![Untitled](CPU%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A6%E1%84%8C%E1%85%AE%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%2041518fff3b4b4c58afdafc13bce4cd74/Untitled.png)
+    ![Untitled](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F587250b4-a040-4997-a4b9-9b98ce0bde6a%2FUntitled.png?id=bd665946-57f5-451b-a959-37a4ef718f6f&table=block&spaceId=1feb7462-9c33-4bf1-b0bb-7973d34ffaf2&width=2000&userId=180a704c-6552-4796-9dd2-ab125439ed98&cache=v2)
     
 
 # CPU 스케줄링 알고리즘 **CPU Scheduling Algorithm**
@@ -90,11 +90,11 @@
 
 - 비선점형 SJF
 
-![Untitled](CPU%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A6%E1%84%8C%E1%85%AE%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%2041518fff3b4b4c58afdafc13bce4cd74/Untitled%201.png)
+![Untitled](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Facfc1b56-80ba-4657-99ff-353a7e86a2db%2FUntitled.png?id=ac3776d5-28e1-4751-ac97-eb3b311c87c2&table=block&spaceId=1feb7462-9c33-4bf1-b0bb-7973d34ffaf2&width=2000&userId=180a704c-6552-4796-9dd2-ab125439ed98&cache=v2)
 
 - 선점형 SJF
 
-![Untitled](CPU%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A6%E1%84%8C%E1%85%AE%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%2041518fff3b4b4c58afdafc13bce4cd74/Untitled%202.png)
+![Untitled](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F12295019-bdc4-4f90-8300-e3eb8988a1e3%2FUntitled.png?id=e6eb8d7f-4220-462c-ab39-bd9b2e61d1bf&table=block&spaceId=1feb7462-9c33-4bf1-b0bb-7973d34ffaf2&width=2000&userId=180a704c-6552-4796-9dd2-ab125439ed98&cache=v2)
 
 ## 우선순위 **Priority 스케줄링**
 
@@ -120,11 +120,11 @@
 - q가 매우 작아지면 process sharing이라고 부른다. 이것은 n개의 프로세스가 프로세서 속도의 1/n 씩으로 작동함을 의미한다.
 - 시간 할당량의 크기는 알고리즘의 성능과 Trade Off 관계임으로 문맥에 적절한 시간 할당량의 크기를 설정하자.
 
-![Untitled](CPU%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A6%E1%84%8C%E1%85%AE%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%2041518fff3b4b4c58afdafc13bce4cd74/Untitled%203.png)
+![Untitled](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F150478da-67ee-45a3-a34e-6510582ec3cf%2FUntitled.png?id=995ffffb-a273-4fe4-af06-9b38deef92c1&table=block&spaceId=1feb7462-9c33-4bf1-b0bb-7973d34ffaf2&width=2000&userId=180a704c-6552-4796-9dd2-ab125439ed98&cache=v2)
 
 ## 다단계 큐 **Multilevel Queue 스케줄링**
 
-![Untitled](CPU%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A6%E1%84%8C%E1%85%AE%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%2041518fff3b4b4c58afdafc13bce4cd74/Untitled%204.png)
+![Untitled](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbee1c3ea-0f43-43a0-9b8a-f797b04bd85b%2FUntitled.png?id=bc3bda9a-a8a2-4783-8b36-d4f88e3f9e10&table=block&spaceId=1feb7462-9c33-4bf1-b0bb-7973d34ffaf2&width=2000&userId=180a704c-6552-4796-9dd2-ab125439ed98&cache=v2)
 
 - `우선순위 스케줄링` + `라운드 로빈 스케줄링` 할때 사용됨
 - 우선순위가 각 프로세스에 정적으로 할당되며 프로세스는 실행시간 동안 동일한 큐에 남아 있다.
@@ -137,8 +137,6 @@
 
 ## **다단계 피드백 큐 스케줄링 Multilevel Feedback Queue(MFQ)**
 
-![Untitled](CPU%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A6%E1%84%8C%E1%85%AE%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%2041518fff3b4b4c58afdafc13bce4cd74/Untitled%205.png)
-
 - Multilevel Queue와 비슷하지만, MFQ는 각 큐 간에 프로세스들이 이동할 수 있다.
 - 다단계 피드백 큐 스케줄링 알고리즘은 Aging과 Starvation을 예방한다.
 - 이 알고리즘은 특정 시스템에 부합하도록 구성이 가능함으로 **현대 사용되는 CPU 스케줄링 알고리즘 중 가장 일반적인 CPU 스케줄링 알고리즘이다.**
@@ -149,4 +147,3 @@
 - 참고
     - [https://imbf.github.io/computer-science(cs)/2020/10/18/CPU-Scheduling.html](https://imbf.github.io/computer-science(cs)/2020/10/18/CPU-Scheduling.html)
     - [https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer Science/Operating System/CPU Scheduling.md](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/CPU%20Scheduling.md)
-    -
