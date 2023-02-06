@@ -33,6 +33,9 @@
 - [인터럽트](./operation-system/interrupt.md)
 - [시스템 콜](./operation-system/system-call.md)
 - [PCB & Context Switching](./operation-system/pcb-contextswitching.md)
+- [데드락](./operation-system/deadlock.md)
+- [동기화 & 경쟁상태 & 임계영역](./operation-system/race-condition.md)
+- [세마포어 & 뮤텍스](./operation-system/semaphore-mutex.md)
 
 ---
 
