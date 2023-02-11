@@ -36,6 +36,9 @@
 - [데드락](./operation-system/deadlock.md)
 - [동기화 & 경쟁상태 & 임계영역](./operation-system/race-condition.md)
 - [세마포어 & 뮤텍스](./operation-system/semaphore-mutex.md)
+- [CPU 스케줄링](./operation-system/cpu-scheduling.md)
+- [주소 바인딩](./operation-system/address-binding.md)
+- [동적적재 & 오버레이 & 동적 링킹](./operation-system/memory-management.md)
 
 ---
 
@@ -54,4 +57,5 @@
 - [Error & Exception](./java/error-exception.md)
 - [자바 스트림(Java Stream)](./java/stream.md)
 - [트랜잭션(Transaction)](database/transaction.md)
+- [람다 Lambda](./java/lambda.md)
 
