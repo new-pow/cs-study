@@ -39,6 +39,9 @@
 - [CPU 스케줄링](./operation-system/cpu-scheduling.md)
 - [주소 바인딩](./operation-system/address-binding.md)
 - [동적적재 & 오버레이 & 동적 링킹](./operation-system/memory-management.md)
+- [물리적 메모리 할당 방법](./operation-system/allocation-physical-memory.md)
+- [연속할당방식 : 고정분할 방식&가변분할 방식](./operation-system/contiguous-allocation.md)
+- [불연속할당방식 : 페이징](./operation-system/paging.md)
 
 ## Network
 - [OSI 7 계층 & TCP/IP 4 계층](./network/osi-7-layer.md)
