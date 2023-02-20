@@ -42,6 +42,8 @@
 - [물리적 메모리 할당 방법](./operation-system/allocation-physical-memory.md)
 - [연속할당방식 : 고정분할 방식&가변분할 방식](./operation-system/contiguous-allocation.md)
 - [불연속할당방식 : 페이징](./operation-system/paging.md)
+- [불연속할당방식 : 세그먼테이션](./operation-system/segmentation.md)
+- [Blocking,Non-blocking & Synchronous,Asynchronous](./operation-system//blocking-nonblocking-synchronuous-asynchronous.md)
 
 ## Network
 - [OSI 7 계층 & TCP/IP 4 계층](./network/osi-7-layer.md)
@@ -50,6 +52,7 @@
 - [TCP & UDP](./network/TCP-UDP.md)
 - [대칭키 & 비대칭키 암호화](./network/public-private-key.md)
 - [SSL/TLS HandShake](./network/SSL-TLS-HandShake.md)
+- [HTTP & HTTPS](./network/http-https.md)
 
 ---
 
